@@ -1,4 +1,3 @@
-import React from 'react';
 import Topbanner from './Topbanner';
 import PaymentPathways from './PaymentPathways';
 import MidBannerOne from './MidBannerOne';

@@ -127,6 +127,7 @@ textarea {
     background: linear-gradient(269.18deg, #f27405 6.87%, #d3bd00 118.13%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text
 }
 
 .payments-people {
