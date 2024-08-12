@@ -1,4 +1,3 @@
-import React from 'react';
 import { icons, images } from '../../exports/images';
 import { IService } from '../../types/dataObjs';
 

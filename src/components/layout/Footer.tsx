@@ -1,4 +1,3 @@
-import React from 'react'
 import FooterLogo from './FooterLogo'
 import { images, icons } from '../../exports/images'
 
