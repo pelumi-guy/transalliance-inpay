@@ -1,0 +1,183 @@
+label {
+    display: block !important;
+}
+
+input[type="text"] {
+    width: 80%;
+    border: 0.5px solid #555555 !important;
+    border-radius: 10px;
+    height: 52px;
+}
+
+textarea {
+    width: 80%;
+    border: 0.5px solid #555555 !important;
+    border-radius: 10px;
+    height: 131px;
+}
+
+.top-banner {
+    /* background-image: linear-gradient( rgba(5, 14, 20, 0.614), rgba(5, 14, 20, 0.614)), url(https://image.tmdb.org/t/p/original//xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg); */
+    /* url(../images/homePage/TopMovie.svg); */
+    background-image: url(../svgs/TopBannerBcg.svg);
+    background-size: cover;
+    /* -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover; */
+    background-repeat: no-repeat;
+    height: 1244px;
+    /* width: 100vw !important; */
+    display: flex;
+    margin-top: 0px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0rem 5rem 0rem 5rem;
+    position: relative;
+    z-index: -1;
+}
+
+.travel-concept {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    max-width: 800px !important;
+    height: auto;
+    padding: 0px !important;
+}
+
+.travel-concept-img {
+    margin: 0px !important;
+}
+
+.client-logo {
+    margin: 0% -80% 0% 0%;
+}
+
+.human-powered-payments {
+    background: #5fb083;
+    padding-left: 10rem !important;
+}
+
+.woman-with-laptop {
+    width: 100% !important;
+    height: auto;
+}
+
+.transalliance-group {
+    padding: 5rem 3rem 5rem 3rem;
+}
+
+.sectors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.annual-report-container {
+    width: 100%;
+    position: relative;
+}
+
+.annual-report-background {
+    width: 100% !important;
+    /* border-radius: 0px 80px 0px 0px; */
+}
+
+.annual-report {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.contact-form {
+    padding: 0rem 4rem 0rem 4rem;
+}
+
+.footer-name {
+    margin-bottom: 3px;
+}
+
+.light-green-button {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31.25px;
+    text-align: left;
+    width: Hug (223px) px;
+    height: 75px;
+    /* padding: 22px 32px 22px 32px; */
+    padding: 0px 32px 0px 32px;
+    border-radius: 20px;
+    background-color: #5bfb94;
+}
+
+.light-green-button::after {
+    content: url(../svgs/icons/topRightArrow.svg);
+}
+
+.simplified {
+    font-size: 18.65px;
+    font-weight: 700;
+    line-height: 24.28px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    background: linear-gradient(269.18deg, #f27405 6.87%, #d3bd00 118.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.payments-people {
+    font-family: Gayathri, sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 91.3px;
+    text-align: left;
+}
+
+.top-banner-paragraph {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: left;
+}
+
+.partners {
+    width: 90%;
+    /* height: 381px; */
+    top: 1093px;
+    left: 149px;
+    gap: 0px;
+    border-radius: 20px;
+    border-image-source: linear-gradient( 110.49deg, rgba(255, 255, 255, 0.6) 7.36%, rgba(255, 255, 255, 0) 63.6%);
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-blend-mode: lighten !important; */
+    margin-top: -8%;
+    padding: 2rem;
+}
+
+.send-and-receive-money {
+    font-family: DM Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    width: 30%;
+}
+
+.payment-pathways {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tinySectionTitle {
+    font-family: DM Sans, sans-serif;
+    font-size: 18.65px;
+    font-weight: 700;
+    line-height: 24.28px;
+    letter-spacing: 0.2em;
+    text-align: left;
+}

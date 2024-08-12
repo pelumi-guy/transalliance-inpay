@@ -1,0 +1,42 @@
+<svg width="1924" height="525" viewBox="0 0 1924 525" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_21_1829)">
+        <path d="M0 0H1924V445C1924 489.183 1888.18 525 1844 525H0V0Z" fill="#122038"/>
+        <g opacity="0.7">
+            <g filter="url(#filter0_f_21_1829)">
+                <circle cx="-149" r="372" fill="#5BFB94"/>
+            </g>
+            <g filter="url(#filter1_f_21_1829)">
+                <circle cx="-149" cy="0.000274658" r="226.232" fill="#5BFB94"/>
+            </g>
+        </g>
+        <g opacity="0.7" filter="url(#filter2_f_21_1829)">
+            <circle cx="1713" cy="481" r="224" fill="#DEFC7B"/>
+        </g>
+    </g>
+    <path d="M0.5 0.5H1923.5V445C1923.5 488.907 1887.91 524.5 1844 524.5H0.5V0.5Z" stroke="url(#paint0_linear_21_1829)"/>
+    <defs>
+        <filter id="filter0_f_21_1829" x="-1521" y="-1372" width="2744" height="2744" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="500" result="effect1_foregroundBlur_21_1829"/>
+        </filter>
+        <filter id="filter1_f_21_1829" x="-1063.23" y="-914.232" width="1828.46" height="1828.46" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="344" result="effect1_foregroundBlur_21_1829"/>
+        </filter>
+        <filter id="filter2_f_21_1829" x="957" y="-275" width="1512" height="1512" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="266" result="effect1_foregroundBlur_21_1829"/>
+        </filter>
+        <linearGradient id="paint0_linear_21_1829" x1="1789.97" y1="-4.76322e-06" x2="-375.314" y2="113.199" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5FB083"/>
+            <stop offset="1" stop-color="#BDFF00"/>
+        </linearGradient>
+        <clipPath id="clip0_21_1829">
+            <path d="M0 0H1924V445C1924 489.183 1888.18 525 1844 525H0V0Z" fill="white"/>
+        </clipPath>
+    </defs>
+</svg>
