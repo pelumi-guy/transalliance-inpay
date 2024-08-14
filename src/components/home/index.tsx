@@ -1,7 +1,7 @@
 import Topbanner from './Topbanner';
-import PaymentPathways from './PaymentPathways';
+import AboutUs from './AboutUs';
 import MidBannerOne from './MidBannerOne';
-import TheTransAllianceGroup from './TheTransAllianceGroup';
+import OurServices from './OurServices';
 import MidBannerTwo from './MidBannerTwo';
 import SectorsWeServe from './SectorsWeServe';
 import AnnualReportBanner from './AnnualReportBanner';
@@ -11,9 +11,9 @@ const Home = () => {
   return (
     <>
         <Topbanner />
-        <PaymentPathways />
+        <AboutUs />
         <MidBannerOne />
-        <TheTransAllianceGroup />
+        <OurServices />
         <MidBannerTwo />
         <SectorsWeServe />
         <AnnualReportBanner />

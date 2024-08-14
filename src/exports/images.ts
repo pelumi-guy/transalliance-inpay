@@ -18,6 +18,11 @@ import AnnualReportBcg from "../assets/svgs/AnnualReportBcg.svg";
 import SpeakToSales from "../assets/svgs/SpeakToSales.svg";
 import FooterBrandLogo from "../assets/svgs/FooterBrandLogo.svg";
 import BaseGradient from "../assets/svgs/BaseGradient.svg";
+// import PaymentPathwaysWoman from "../assets/svgs/PaymentPathwaysWoman.svg";
+import PaymentPathwaysWoman from "../assets/images/PaymentPathwaysWoman.png";
+import DanishFSAGuy from "../assets/svgs/DanishFSAGuy.svg";
+import PhoneScreen from "../assets/svgs/PhoneScreen.svg";
+import BlurWalkway from "../assets/svgs/BlurWalkway.svg";
 
 // Icons
 import compliance from "../assets/svgs/icons/compliance.svg";
@@ -27,6 +32,9 @@ import trustedPartners from "../assets/svgs/icons/trustedPartners.svg";
 import facebook from "../assets/svgs/icons/facebook.svg";
 import twitter from "../assets/svgs/icons/twitter.svg";
 import instagram from "../assets/svgs/icons/instagram.svg";
+import darkForwardArrow from "../assets/svgs/icons/darkForwardArrow.svg";
+import lightForwardArrow from "../assets/svgs/icons/lightForwardArrow.svg";
+import topRightArrow from "../assets/svgs/icons/topRightArrow.svg";
 
 export const images = {
     brandLogo,
@@ -49,6 +57,10 @@ export const images = {
     SpeakToSales,
     FooterBrandLogo,
     BaseGradient,
+    PaymentPathwaysWoman,
+    DanishFSAGuy,
+    PhoneScreen,
+    BlurWalkway,
 
 
 
@@ -62,6 +74,11 @@ export const icons = {
     facebook,
     twitter,
     instagram,
+    darkForwardArrow,
+    lightForwardArrow,
+    topRightArrow,
+
+
 
 
 };

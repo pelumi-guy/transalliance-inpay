@@ -1,4 +1,5 @@
-import { images } from "../../exports/images"
+import { images, icons } from "../../exports/images";
+import HighlightTag from "../reusables/HighlightTag";
 
 const MidBannerTwo = () => {
     return (
@@ -8,7 +9,7 @@ const MidBannerTwo = () => {
             </div>
 
             <div className="col-4 d-flex align-items-end px-0 mx-0">
-                <div className="human-powered-payments">
+                <div className="one-portal">
                     <h2>
                         One portal,
                         every transaction

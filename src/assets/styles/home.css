@@ -56,7 +56,8 @@ textarea {
 
 .human-powered-payments {
     background: #5fb083;
-    padding-left: 10rem !important;
+    padding: 3rem 2rem 2rem 6rem !important;
+    font-weight: bold;
 }
 
 .woman-with-laptop {
@@ -66,12 +67,6 @@ textarea {
 
 .transalliance-group {
     padding: 5rem 3rem 5rem 3rem;
-}
-
-.sectors-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .annual-report-container {
@@ -127,7 +122,7 @@ textarea {
     background: linear-gradient(269.18deg, #f27405 6.87%, #d3bd00 118.13%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text
+    background-clip: text;
 }
 
 .payments-people {
@@ -153,7 +148,7 @@ textarea {
     gap: 0px;
     border-radius: 20px;
     border-image-source: linear-gradient( 110.49deg, rgba(255, 255, 255, 0.6) 7.36%, rgba(255, 255, 255, 0) 63.6%);
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     /* background-blend-mode: lighten !important; */
     margin-top: -8%;
     padding: 2rem;
@@ -168,17 +163,178 @@ textarea {
     width: 30%;
 }
 
-.payment-pathways {
+.about-us {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.tinySectionTitle {
+.about-us-body {
+    padding: 7rem 5rem 7rem 5rem;
+}
+
+.big-section-header {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 78.12px;
+    text-align: left;
+}
+
+.section-paragraph {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #757575;
+}
+
+.payment-pathways-woman {
+    max-height: 400px;
+}
+
+.payment-pathways-row-2 {
+    margin-left: -30%;
+}
+
+.customer-portal {
+    transform: translate(0%, -30%);
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+.tiny-section-title {
     font-family: DM Sans, sans-serif;
     font-size: 18.65px;
     font-weight: 700;
     line-height: 24.28px;
     letter-spacing: 0.2em;
     text-align: left;
+    color: #858585;
+}
+
+.highlight-tag {
+    position: absolute;
+    /* width: 375px; */
+    height: 85px;
+    /* top: 362px;
+    left: 1118px; */
+    z-index: 1000;
+    padding: 27px 13px 27px 14px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #122038;
+    /* Typography */
+    font-family: DM Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.tag-container {
+    position: relative;
+}
+
+.discover-more-tag {
+    transform: translate(0%, -50%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    /* width: 544px;
+    height: 121px; */
+    padding: 0 20px;
+    border-radius: 20px !important;
+    background-color: rgba(138, 138, 138, 0.3);
+    /* Semi-transparent background */
+    border: 2px solid rgba(138, 138, 138, 0.6);
+    /* Semi-transparent border */
+    border-image-slice: 1;
+    /* border-image-source: linear-gradient(90deg, #ffffff 0%, #8a8a8a 100%); */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.danish-fsa-tag {
+    transform: translate(-50%, 0%);
+}
+
+.currencies-served-tag {
+    transform: translate(-50%, -50%);
+}
+
+.money-out-btn {
+    background: linear-gradient(263.68deg, #5aaf87 4.04%, #d3bd00 127.52%);
+    position: relative;
+    margin-top: 15%;
+    margin-left: -20%;
+    /* box-shadow: 0 0 0 5px white, 10px -10px 15px rgba(0, 0, 0, 0.3); */
+    /* Offset shadow */
+}
+
+.money-out-frame {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    border: 2px solid #5aaf87;
+}
+
+.money-out-container {
+    margin-top: 15rem;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.dark-gradient-btn {
+    background: linear-gradient(264.61deg, #24343e -97.02%, #5aaf87 133.21%);
+    position: relative;
+}
+
+.light-gradient-btn {
+    background: linear-gradient(263.68deg, #5aaf87 4.04%, #d3bd00 127.52%);
+    position: relative;
+}
+
+.learn-more {
+    margin-top: 7rem;
+}
+
+.services-img {
+    margin-top: 7rem;
+}
+
+.meet-experts {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    padding: 1rem;
+    width: 50%;
+    text-align: left;
+}
+
+.one-portal {
+    background: #5fb083;
+    padding: 3rem 4rem 2rem 2rem !important;
+    font-weight: bold;
+}
+
+.sectors-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100vw;
+    gap: 1.5rem;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.sector-img {
+    max-width: 420px;
+    /* margin: 0rem 2rem 0rem 2rem; */
+}
+
+.sectors-we-serve {
+    padding: 7rem 3rem 7rem 3rem;
 }

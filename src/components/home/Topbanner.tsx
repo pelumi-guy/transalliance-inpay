@@ -1,5 +1,7 @@
-import { images } from "../../exports/images";
+import { icons, images } from "../../exports/images";
 import "../../assets/styles/home.css";
+import HighlightTag from "../reusables/HighlightTag";
+import { Link } from "react-router-dom";
 
 
 const Topbanner = () => {
@@ -13,11 +15,24 @@ const Topbanner = () => {
                 </hgroup>
 
                 <div className="col-4">
-                    <img src={images.FlatLayWithLaptopAndHeadphones} alt="Flat Lay With Laptop and Headphones" className="img-fluid" />
+                    <div className="tag-container">
+                        <img src={images.FlatLayWithLaptopAndHeadphones} alt="Flat Lay With Laptop and Headphones" className="img-fluid" />
+                        <HighlightTag position={{ x: "-23%", y: "9%" }}>
+                            24/7, 365 transaction tracking
+                        </HighlightTag>
+                    </div>
+
                 </div>
 
                 <div className="travel-concept">
-                    <img src={images.TravelConcept} alt="Travel concept with documents" className="img-fluid travel-concept-img" />
+                    <div className="tag-container">
+                        <img src={images.TravelConcept} alt="Travel concept with documents" className="img-fluid travel-concept-img" />
+
+                        <HighlightTag position={{ x: "20%", y: "0%" }} className="discover-more-tag" button>
+                            Discover More &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            <img src={icons.darkForwardArrow} alt="forward arrow" />
+                        </HighlightTag>
+                    </div>
                 </div>
 
             </div>

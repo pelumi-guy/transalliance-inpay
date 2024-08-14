@@ -1,4 +1,7 @@
-
+export type position = {
+    x: string
+    y: string
+}
 
 export interface IService {
     header: string;
@@ -9,5 +12,6 @@ export interface IService {
 export interface ISector {
     title: string;
     image: string | undefined;
-    tagPosition: Array<number>
+    tagPosition: position
 }
+

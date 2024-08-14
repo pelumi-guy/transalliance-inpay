@@ -2,6 +2,10 @@
     border: 1px solid red;
 }
 
+.transparent {
+    opacity: 0;
+}
+
 header {
     background-color: transparent !important;
     position: absolute;
