@@ -1,4 +1,4 @@
-import { images, icons } from "../../exports/images";
+import { images } from "../../exports/images";
 import HighlightTag from "../reusables/HighlightTag";
 
 const MidBannerTwo = () => {

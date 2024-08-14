@@ -1,7 +1,6 @@
 import { icons, images } from "../../exports/images";
 import "../../assets/styles/home.css";
 import HighlightTag from "../reusables/HighlightTag";
-import { Link } from "react-router-dom";
 
 
 const Topbanner = () => {
