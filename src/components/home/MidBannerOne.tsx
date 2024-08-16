@@ -4,7 +4,7 @@ import HighlightTag from "../reusables/HighlightTag"
 const MidBannerOne = () => {
     return (
         <div className='row'>
-            <div className="col-4 d-flex align-items-end px-0 mx-0">
+            <div className="col-12 col-md-4 d-flex align-items-end px-0 mx-0">
                 <div className="human-powered-payments">
                     <h3>
                         The human-powered payments network
@@ -21,7 +21,7 @@ const MidBannerOne = () => {
                 </div>
             </div>
 
-            <div className="col-8 px-0">
+            <div className="col-12 col-md-8 px-0">
                 <img src={images.WomanWithLaptopOnBcg} alt="Woman With Laptop On Background" className="woman-with-laptop" />
             </div>
         </div>

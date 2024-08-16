@@ -14,8 +14,8 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className="collapse navbar-collapse navbar-menu" id="navbarTogglerDemo02">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 align-self-end  navbar-items">
+                    <div className="collapse navbar-collapse navbar-link" id="navbarTogglerDemo02">
+                        <ul className="navbar-nav navbar-items">
                             <li className="nav-item">
                                 <Link className="nav-link active" aria-current="page" to="#">Home</Link>
                             </li>

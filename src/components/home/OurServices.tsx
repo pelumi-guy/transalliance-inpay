@@ -30,31 +30,30 @@ const OurServices = () => {
 
   return (
     <div className='row transalliance-group'>
-      <div className="col-4">
+      <div className="col-12 col-md-4">
         <h5 className='tiny-section-title'>OUR SERVICE</h5>
 
-        <div className="pt-5">
+        <article className="pt-3 pt-md-5">
           {
             services.map((service, idx) => {
               return (
-                <article key={idx} className='py-3'>
-                  <hgroup>
-                    <img src={service.icon} alt={service.header} />
-                    <h4 className='py-2'>
-                      {service.header}
-                    </h4>
-                    <p className="text-muted">
-                      {service.paragraph}
-                    </p>
-                  </hgroup>
-                </article>)
+                <hgroup key={idx} className='py-3'>
+                  <img src={service.icon} alt={service.header} className='img-fluid'/>
+                  <h4 className='py-2'>
+                    {service.header}
+                  </h4>
+                  <p className="text-muted">
+                    {service.paragraph}
+                  </p>
+                </hgroup>
+              )
             })
           }
-        </div>
+        </article>
 
       </div>
 
-      <div className="col-8">
+      <div className="col-12 col-md-8">
         <hgroup>
           <h2 className='big-section-header'>
             The Transalliance Group. difference

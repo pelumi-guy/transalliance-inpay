@@ -103,7 +103,7 @@ footer {
 .navbar-items {
     /* align-self: end;
     justify-self: flex-end; */
-    margin-left: 15%;
+    margin-left: auto;
     font-size: 18px;
     font-weight: 700;
     line-height: 23.44px;
@@ -118,5 +118,11 @@ footer {
 @media screen and (max-width: 768px) {
     .navbar-items {
         margin-left: 0px;
+        display: block !important;
+    }
+    .navbar-menu {
+        display: block !important;
+        /* flex-direction: row !important;
+        justify-content: flex-end !important; */
     }
 }

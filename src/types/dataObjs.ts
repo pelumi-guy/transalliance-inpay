@@ -13,5 +13,6 @@ export interface ISector {
     title: string;
     image: string | undefined;
     tagPosition: position
+    className?: string
 }
 

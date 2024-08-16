@@ -92,6 +92,30 @@ textarea {
     padding: 0rem 4rem 0rem 4rem;
 }
 
+.contact-form label {
+    font-family: DM Sans, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.25px;
+    text-align: left;
+}
+
+.contact-form textarea {
+    font-family: DM Sans, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.25px;
+    text-align: left;
+}
+
+.contact-form p {
+    font-family: DM Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.83px;
+    text-align: left;
+}
+
 .footer-name {
     margin-bottom: 3px;
 }
@@ -215,7 +239,7 @@ textarea {
 .highlight-tag {
     position: absolute;
     /* width: 375px; */
-    height: 85px;
+    height: 80px;
     /* top: 362px;
     left: 1118px; */
     z-index: 1000;
@@ -225,9 +249,9 @@ textarea {
     color: #122038;
     /* Typography */
     font-family: DM Sans, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 20px;
     text-align: left;
     display: flex;
     align-items: center;
@@ -337,4 +361,132 @@ textarea {
 
 .sectors-we-serve {
     padding: 7rem 3rem 7rem 3rem;
+}
+
+.financial-services-tag {
+    transform: translate(-50%, -50%);
+}
+
+.ngos-tag {
+    transform: translate(-50%, 50%);
+}
+
+.igaming-tag {
+    transform: translate(-50%, 0%);
+}
+
+.corporates-tag {
+    transform: translate(-30%, -70%);
+}
+
+.flat-lay {
+    min-height: 200px;
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .top-banner {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+    .highlight-tag {
+        height: 70px;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        border-radius: 18px;
+        /* Typography */
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+    }
+    .tiny-section-title {
+        font-size: 13.65px;
+        font-weight: 700;
+        line-height: 16.28px;
+        letter-spacing: 0.2em;
+        text-align: left;
+        color: #858585;
+    }
+    .big-section-header {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 33px;
+    }
+    .section-paragraph {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+    }
+    .payments-people {
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 71.3px;
+    }
+    .top-banner-paragraph {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .send-and-receive-money {
+        font-family: DM Sans, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        width: 100%;
+    }
+    .about-us-body {
+        padding: 5rem 1rem 5rem 1rem;
+    }
+    .money-out-btn {
+        margin-top: 2rem !important;
+        margin-left: 1rem;
+    }
+    .money-out-container {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .danish-fsa-tag {
+        transform: translate(-10%, 0%);
+    }
+    .human-powered-payments {
+        width: 80%;
+        margin-left: auto;
+    }
+    .one-portal {
+        width: 80%;
+    }
+    .meet-experts {
+        padding: 0.5rem;
+    }
+    .meet-experts h4 {
+        font-size: 18px !important;
+    }
+    .sectors-we-serve {
+        padding: 5rem 2rem 5rem 2rem;
+    }
+    .annual-report {
+        padding: 1rem;
+        margin: 0px;
+        width: 100%;
+    }
+    /* .annual-report-background {
+        min-height: 300px;
+    } */
+    .annual-report h2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .annual-report p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .contact-form p {
+        font-size: 18px !important;
+    }
+    .contact-form label {
+        font-size: 18px !important;
+    }
 }

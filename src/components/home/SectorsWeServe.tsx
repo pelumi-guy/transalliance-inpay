@@ -7,22 +7,26 @@ const SectorsWeServe = () => {
         {
             title: "Financial Services",
             image: images.FinancialServices,
-            tagPosition: { x: "100%", y: "71%" }
+            tagPosition: { x: "100%", y: "71%" },
+            className: "financial-services-tag"
         },
         {
             title: "iGaming",
             image: images.iGaming,
-            tagPosition: { x: "0%", y: "3%" }
+            tagPosition: { x: "0%", y: "5%" },
+            className: "igaming-tag"
         },
         {
             title: "NGOs",
             image: images.NGOs,
-            tagPosition: { x: "100%", y: "9%" }
+            tagPosition: { x: "100%", y: "9%" },
+            className: "ngos-tag"
         },
         {
             title: "Corporates",
             image: images.Corporates,
-            tagPosition: { x: "0%", y: "100%" }
+            tagPosition: { x: "0%", y: "100%" },
+            className: "corporates-tag"
         },
 
     ]
@@ -40,12 +44,12 @@ const SectorsWeServe = () => {
 
             <div className="sectors-container">
                 {sectors.map((sector, idx) => {
-                    const [x, y] = sector.tagPosition.x;
+                    const {x, y} = sector.tagPosition;
 
                     return (
-                        <div className="tag-container sector-img ">
+                        <div className="tag-container sector-img" key={idx}>
                             <img src={sector.image} alt={`sector-${idx}`} className='img-fluid sector-img my-3 my-md-2' key={idx} />
-                            <HighlightTag position={{ x, y }}>
+                            <HighlightTag position={{ x, y }} className={sector.className}>
                                 {sector.title}
                                 <br />
                                 Learn More &nbsp;

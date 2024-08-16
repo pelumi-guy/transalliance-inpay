@@ -1,25 +1,12 @@
-const SubmitButton = () => {
-
-
-  // useEffect(() => {
-  //   console.log({ pending });
-  // }, [pending]);
-
-  return (
-    <button className={`btn rounded-pill`}
-    >
-      Submit
-    </button>
-  )
-}
-
+import HighlightTag from "../reusables/HighlightTag";
+import { icons } from "../../exports/images";
 
 const ContactForm = () => {
 
   return (
     <form className='contact-form'>
 
-      <div className="mt-5 mt-md-0">
+      <div className="mt-5 mt-md-0 big-section-header">
         <h3>Speak to Sales</h3>
 
         <aside className='d-flex flex-column justify-content-center'>
@@ -62,7 +49,7 @@ const ContactForm = () => {
           </div>
 
           <div className="row">
-            <div className="col-1">
+            <div className="col-1 d-flex align-items-start">
               <input type="checkbox" name="termsAndConditions" id="termsAndConditions" />
             </div>
             <div className="col-11">
@@ -72,9 +59,13 @@ const ContactForm = () => {
             </div>
           </div>
 
-          <div className='mt-4 mb-5 my-md-5'>
-            <SubmitButton />
+          <div className="mb-4 mb-md-0">
+            <HighlightTag position={{ x: "0%", y: "0%" }} className="dark-gradient-btn" button>
+              Submit &nbsp; &nbsp;
+              <img src={icons.lightForwardArrow} alt="forward arrow" className='img-fluid' />
+            </HighlightTag>
           </div>
+
         </aside>
       </div>
 

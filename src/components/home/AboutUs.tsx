@@ -9,28 +9,28 @@ const AboutUs = () => {
                     Send and Receive Money from all over with ease.
                 </h5>
 
-                <div className="d-flex align-items-center">
-                    <div>
-                        <img src={images.DanishRedCross} alt="Danish Red Cross" className='img-fluid' />
+                <div className="row d-md-flex align-items-center">
+                    <div className='col-6 col-md-2'>
+                        <img src={images.DanishRedCross} alt="Danish Red Cross" className='img-fluid partner' />
                     </div>
 
-                    <div>
+                    <div className='col-6 col-md-2'>
                         <img src={images.TripleEight} alt="888" className='client-logo img-fluid' />
                     </div>
 
-                    <div>
+                    <div className='col-6 col-md-2'>
                         <img src={images.CIMB} alt="CIMB" className='client-logo img-fluid' />
                     </div>
 
-                    <div>
+                    <div className='col-6 col-md-2'>
                         <img src={images.Nuvei} alt="Nuvei" className='client-logo img-fluid' />
                     </div>
 
-                    <div>
+                    <div className='col-6 col-md-2'>
                         <img src={images.MoneyGram} alt="MoneyGram" className='client-logo img-fluid' />
                     </div>
 
-                    <div>
+                    <div className='col-6 col-md-2'>
                         <img src={images.RakBank} alt="RakBank" className='img-fluid' />
                     </div>
                 </div>
@@ -39,7 +39,7 @@ const AboutUs = () => {
 
             <div className='about-us-body '>
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-12 col-md-4">
                         <h6 className='tiny-section-title'>About Us</h6>
 
                         <div className="tag-container money-out-container">
@@ -54,11 +54,11 @@ const AboutUs = () => {
                             </HighlightTag>
                         </div>
 
-                        <img src={images.BlurWalkway} alt="Blur Walkway" className='img-fluid mt-5' />
+                        <img src={images.BlurWalkway} alt="Blur Walkway" className='img-fluid mt-5 d-none d-md-block' />
 
                     </div>
 
-                    <div className="col-8">
+                    <div className="col-12 col-md-8">
                         <h2 className="big-section-header">
                             Payment pathways, built for you
                         </h2>
@@ -73,15 +73,15 @@ const AboutUs = () => {
                             </HighlightTag>
                         </div>
 
-                        <div className='mt-5 d-flex align-items-end payment-pathways-row-2'>
-                            <div className="tag-container me-5">
+                        <div className='mt-5 d-flex align-items-end payment-pathways-row-2 row'>
+                            <div className="tag-container me-0 col-6">
                                 <img src={images.DanishFSAGuy} alt="Corporate Guy With Specs" className='img-fluid danish-fsa' />
                                 <HighlightTag position={{ x: "0%", y: "30%" }} className='danish-fsa-tag'>
                                     Danish FSA regulated
                                 </HighlightTag>
                             </div>
 
-                            <div className="tag-container mt-4 ">
+                            <div className="tag-container mt-4 col-6">
                                 <img src={images.PhoneScreen} alt="Phone Screen" className='img-fluid' />
                                 <HighlightTag position={{ x: "50%", y: "100%" }} className='currencies-served-tag'>
                                     90+ currencies served
